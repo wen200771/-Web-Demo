@@ -1,0 +1,114 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-bar{
+    position: absolute;
+    z-index: 10;
+    top: 10%;
+    /* left: 36%; */
+}
+
+.nav-bar p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 標楷體;
+    margin-top: 20px;
+    line-height: 1.5;
+    color: rgb(76, 75, 72);
+}
+
+.nav-bar ul{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.nav-bar li{
+    writing-mode: vertical-lr;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.898);
+}
+
+.nav-bar a:hover{
+    /* font-size: 20px; */
+    color: rgb(255, 204, 35);
+}
+
+.logo{
+    margin: 0 auto;
+    width: 15%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+
+
+.banner{
+    width: 100vw;
+    height: 100vh;
+}
+
+img{
+    height: 100%;
+}
+
+.banner:hover{
+    transform: translateX(-28%);
+}
+
+

@@ -1,0 +1,320 @@
+:root {
+  --navBgColor: #d1e7d9;
+  --opacitynavBgColor: rgba(223, 215, 194, 0);
+  --navTextColor: rgba(0, 0, 0, 1);
+  --navhoverColor: rgba(103, 99, 90, 1);
+  --highLightColor: rgba(203, 125, 157, 1);
+  --hoverColor: rgba(255, 255, 255, 1);
+  --darkColor: #5a9f73;
+  --titleColor: #5a9f73;
+  --mainFontColor: rgba(30, 30, 30, 1);
+  --opacityFontColor: rgba(103, 99, 90, 0.5);
+  --mainBorder: 1.5px solid var(--opacityFontColor);
+}
+
+#nav-icon span {
+
+  background: var(--darkColor);
+
+}
+
+.roomTitle h4 {
+  font-size: 24px;
+  color: var(--titleColor);
+}
+
+.line_n {
+  text-decoration: line-through;
+  color: rgb(124, 124, 124);
+}
+
+.roomTitle h3 {
+  font-size: 16px;
+  margin-top: -24px;
+  text-align: right;
+}
+
+.service_mask {
+  background-color: rgba(143, 142, 142, 0.26);
+}
+
+.aboutText h6 {
+  line-height: 34px;
+}
+
+.aboutpic {
+  position: fixed;
+  top: 65%;
+  left: 3%;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.aboutpic img {
+  width: 150px;
+  animation: alarm 1s infinite;
+}
+
+
+.navbar {
+  background-color: var(--opacitynavBgColor);
+  /* box-shadow: 0px 2px 5px rgba(0,0,0,0.2); */
+}
+
+#nav-icon span {
+  background: var(--darkColor);
+}
+
+/* 
+#home,#myCarousel{
+  
+  margin-top: 88px;
+} */
+
+.mainBg {
+  background-color: var(--navBgColor);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.mainMask {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.banner-full {
+
+  background-image: url(../img/banner1.jpg)
+}
+
+.section:nth-child(odd) {
+  background-color: #fff
+}
+
+.hovereffect h2 {
+  padding: 0em 0;
+}
+
+.overlay img {
+  margin-top: 15px;
+}
+
+.trafficText img {
+  filter: brightness(0.4)
+}
+
+
+#sns ul li {
+  filter: brightness(0);
+}
+
+.footer {
+  background-color: #d1e7d9;
+}
+
+#copyright {
+  background-color: #5a9f73;
+}
+
+/* 響應式選單*/
+@media (max-width:1200px) {
+  #logo {
+    width: 100%;
+  }
+
+  #home,
+  #myCarousel {
+
+    margin-top: 88px;
+  }
+
+  .navbar {
+    background-color: var(--navBgColor) !important;
+  }
+
+  .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+  }
+
+  .navbar-brand>img {
+    margin: auto;
+
+  }
+
+  .collapse {
+    position: absolute;
+    display: block;
+    top: -1200%;
+    margin: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--navBgColor);
+    transition: 0.5s;
+
+  }
+
+  .collapse.move {
+    top: 0;
+    left: 0;
+    opacity: 1;
+  }
+
+  .shop1688 {
+    left: 15px;
+  }
+
+  /* .navbar-collapse{
+    background-color: var(--navBgColor);
+  } */
+  .navbar-header {
+    float: none;
+
+  }
+
+  .navbar .container-fluid {
+    padding: 0;
+  }
+
+  .container-fluid>.navbar-collapse {
+    margin: 0;
+  }
+
+  .navbar-right {
+    margin-right: 0;
+  }
+
+  .navbar-left,
+  .navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+
+  .navbar-nav {
+    text-align: center;
+    float: none !important;
+    margin-top: 100px;
+
+  }
+
+  .navbar-nav>li>a::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: var(--navhoverColor);
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+
+
+
+  }
+
+  .navbar-nav>li>a:hover::after {
+    width: 5%;
+
+
+
+    transition: 0.5s;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+
+}
+
+
+
+/*響應式調整*/
+
+
+@media screen and (max-width:1200px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:991px) {}
+
+@media screen and (max-width:770px) {
+
+  .aboutFlex img {
+    background-color: #d1e7d9;
+    border-style: double;
+    border-width: 10px;
+    border-color: #FFF;
+
+  }
+
+  .floatRightText {
+    background-color: #FFF;
+  }
+
+  .aboutpic {
+    top: 32%;
+    left: 1%;
+  }
+
+  .btn_group .btn_a {
+    width: 40%;
+  }
+
+  .aboutpic img {
+    width: 80px;
+  }
+
+  .roomTitle h3 {
+    margin-top: 8px;
+    text-align: right;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width:576px) {
+  .hovereffect img {
+    margin-bottom: 25px;
+  }
+
+  .overlay img {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width:414px) {}
+
+@media screen and (max-width:375px) {}
+
+
+@keyframes alarm {
+  0% {
+    transform: rotate(3deg);
+  }
+
+  25% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+
+  75% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(3deg);
+  }
+}
