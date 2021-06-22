@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500,700&display=swap');
+:root{
+  --bgColor:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+  --mainColor: rgba(0,0,0,0.8);
+  --mainColorOpacity:#010103;
+  --fontColor:rgb(80,80,80);
+  --viceColor: rgba(0,0,0,0.8);
+  --mainFont: 'Noto Sans TC', '微軟正黑體',sans-serif;
+  --viceFont: 'Noto Sans TC', '微軟正黑體',sans-serif;
+}
